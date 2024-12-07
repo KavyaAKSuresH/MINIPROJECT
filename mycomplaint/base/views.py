@@ -10,4 +10,6 @@ def register_complaint(request):
 def track_complaint(request):
     return render(request, 'track.html')
 
+def view_complaint(request):
+    return render(request, 'viewcomplaint.html')
 

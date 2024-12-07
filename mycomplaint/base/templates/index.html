@@ -65,8 +65,9 @@
         <h1>Your Voice Matters!</h1>
         <p>Our platform allows you to submit complaints, track their status, and resolve issues seamlessly. Please select an option below to get started.</p>
         <div class="buttons">
-            <a href="{% url 'blog:detail'%}">Register Complaint</a>
-            <a href="track.html">Track Complaint</a>
+            <a href="{% url 'register' %}">Register Complaint</a>
+            <a href="{% url 'track_complaint' %}">Track Complaint</a>
+            <a href="{% url 'view_complaint' %}">View Complaint</a>
         </div>
     </div>
     <footer>
